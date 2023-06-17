@@ -32,6 +32,19 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0); /*retangulo->forçar que a caixa fique inexistente */
+  white-space: nowrap;
+  border-width: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
 #body-users.hide {
   display: none;
 }
